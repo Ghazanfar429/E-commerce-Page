@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <main id="magic">
+      <header>
+        <img class="menu" src="images/icon-menu.svg" alt="#" />
+        <h1>sneakers</h1>
+        <nav>
+          <ul>
+            <li><img class="hehe" src="images/icon-close.svg" alt="" /></li>
+            <li><a href="#"> Collections </a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="profile_cnt">
+          <a href="#" id="cart"
+            ><img class="h_tumb" src="images/icon-cart.svg" alt="#"
+          /></a>
+          <img class="profile" src="images/image-avatar.png" alt="#" />
+        </div>
+      </header>
+      <article>
+        <div class="img_cnt">
+          <img
+            id="main_image"
+            class="req"
+            src="images/image-product-1.jpg"
+            alt="shoes"
+          />
+          <div class="thumbnails">
+            <img
+              class="thumb"
+              src="images/image-product-1-thumbnail.jpg"
+              alt="#"
+            />
+            <img
+              class="thumb"
+              src="images/image-product-2-thumbnail.jpg"
+              alt="#"
+            />
+            <img
+              class="thumb"
+              src="images/image-product-3-thumbnail.jpg"
+              alt="#"
+            />
+            <img
+              class="thumb"
+              src="images/image-product-4-thumbnail.jpg"
+              alt="#"
+            />
+          </div>
+        </div>
+        <div class="price_cnt">
+          <h6>Sneaker Company</h6>
+          <h2>Fall Limited Edition Sneakers</h2>
+          <p class="details">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+          <div class="price">
+            <h3>$125.00</h3>
+            <p>50%</p>
+          </div>
+          <p class="offer">$250.00</p>
+          <div class="btn">
+            <div class="cal">
+              <input id="minus" type="button" value="-" />
+              <input id="display" type="text" value="0" size="1" />
+              <input id="plus" type="button" value="+" />
+            </div>
+            <div id="cart_btn" class="add_btn">
+              <img src="images/icon-cart.svg" alt="#" />
+              <p>Add to cart</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <aside id="hen">
+      <div class="fraud">
+        <div class="cross">
+          <img src="images/icon-close.svg" alt="#" />
+        </div>
+        <div>
+          <img
+            src="images/image-product-1.jpg"
+            id="pop_img"
+            class="pop_up"
+            alt="#"
+          />
+          <div class="arrow">
+            <img
+              id="x01"
+              class="previous"
+              src="images/icon-previous.svg"
+              alt="#"
+            />
+            <img id="x02" class="next" src="images/icon-next.svg" alt="#" />
+          </div>
+        </div>
+        <div class="pop_up_thumb_cnt">
+          <img
+            class="pop_up_thumb"
+            src="images/image-product-1-thumbnail.jpg"
+            alt="#"
+          />
+          <img
+            class="pop_up_thumb"
+            src="images/image-product-2-thumbnail.jpg"
+            alt="#"
+          />
+          <img
+            class="pop_up_thumb"
+            src="images/image-product-3-thumbnail.jpg"
+            alt="#"
+          />
+          <img
+            class="pop_up_thumb"
+            src="images/image-product-4-thumbnail.jpg"
+            alt="#"
+          />
+        </div>
+      </div>
+    </aside>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  color: hsl(220, 13%, 13%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid hsl(219, 9%, 45%);
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.menu {
+  display: none;
+}
+
+ul {
+  float: left;
+}
+.hehe {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: hsl(219, 9%, 45%);
+  padding: 2rem 0;
+}
+
+li a:hover {
+  cursor: pointer;
+  color: hsl(220, 13%, 13%);
+  border-bottom: solid 3px hsl(26, 100%, 55%);
+}
+
+.profile_cnt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#cart {
+  position: relative;
+}
+
+.h_tumb {
+  padding-right: 5rem;
+}
+
+.h_tumb:hover {
+  cursor: pointer;
+}
+
+.profile {
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+}
+
+.profile:hover {
+  outline: solid 3px hsl(26, 100%, 55%);
+  cursor: pointer;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  padding: 0 2rem;
+}
+.img_cnt {
+  width: 50%;
+  align-self: flex-start;
+}
+
+.req {
+  border-radius: 5rem;
+  width: 100%;
+  max-height: 50rem;
+  margin-bottom: 2rem;
+}
+
+.thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thumb {
+  max-width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.thumb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.price_cnt {
+  width: 50%;
+}
+
+h6 {
+  color: hsl(26, 100%, 55%);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+.details {
+  color: hsl(219, 9%, 45%);
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.price p {
+  background-color: hsl(25, 100%, 94%);
+  color: hsl(26, 100%, 55%);
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.offer {
+  text-decoration: line-through;
+  color: hsl(220, 14%, 75%);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.cal {
+  width: fit-content;
+  padding: 5px;
+  border-radius: 2rem;
+  background-color: hsl(223, 64%, 98%);
+}
+
+.cal input {
+  outline: none;
+  font-weight: 700;
+}
+
+.cal input[type="button"] {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  padding: 1rem;
+  border: none;
+  font-size: 3rem;
+  background-color: hsl(223, 64%, 98%);
+}
+
+input[type="button"]:hover {
+  cursor: pointer;
+}
+
+.cal input[type="text"] {
+  border: none;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: hsl(223, 64%, 98%);
+}
+
+.add_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(26, 100%, 55%);
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+}
+
+.add_btn img {
+  fill: hsl(0, 0%, 100%);
+}
+
+.add_btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+aside {
+  width: 100%;
+  display: none;
+
+  justify-content: center;
+  position: relative;
+  top: -100%;
+  transform: translate(0, -100%);
+}
+
+.fraud {
+  width: 40%;
+  position: relative;
+}
+
+.cross {
+  margin-top: 5rem;
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.cross img:hover {
+  cursor: pointer;
+}
+
+.pop_up {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.arrow {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow .previous {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 90%;
+  position: relative;
+  transform: translateX(-50%);
+}
+.arrow .next {
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  border-radius: 90%;
+  position: relative;
+  transform: translateX(50%);
+}
+
+.next:hover,
+.previous:hover {
+  cursor: pointer;
+}
+
+.pop_up_thumb_cnt {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.pop_up_thumb {
+  max-width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.pop_up_thumb:hover {
+  cursor: pointer;
+}

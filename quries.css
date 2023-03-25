@@ -1,0 +1,88 @@
+@media (max-width: 67.82em) {
+  article {
+    gap: 3rem;
+  }
+  h2 {
+    font-size: 4.5rem;
+  }
+  .cal input[type="text"] {
+    padding: 0.5rem;
+  }
+  .cal input[type="button"] {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+
+  .add_btn {
+    padding: 1.5rem;
+  }
+  .thumb {
+    max-width: 8rem;
+    height: 8rem;
+  }
+  .pop_up_thumb {
+    max-width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 51.875em) {
+  article {
+    flex-direction: column;
+  }
+  .img_cnt {
+    width: 100%;
+    align-self: center;
+  }
+  .req {
+    height: auto;
+  }
+  .price_cnt {
+    width: 100%;
+  }
+  .btn {
+    flex-direction: column;
+  }
+  .cal input[type="text"] {
+    padding: 2rem 4rem;
+    font-size: 3rem;
+  }
+  .cal input[type="button"] {
+    padding: 2.5rem;
+    font-size: 3rem;
+  }
+  .add_btn {
+    padding: 2.5rem 4rem;
+    gap: 6rem;
+    font-size: 3rem;
+  }
+  .thumbnails {
+    display: none;
+  }
+  nav {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  ul {
+    background-color: hsl(0, 0%, 100%);
+    float: none;
+    padding-top: 2rem;
+    width: 60%;
+    min-height: 300vh;
+  }
+  li {
+    display: block;
+    color: hsl(220, 14%, 75%);
+    padding: 2rem;
+    font-weight: 700;
+  }
+  .hehe {
+    display: block;
+  }
+  .menu {
+    display: block;
+  }
+}
